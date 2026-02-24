@@ -26,9 +26,10 @@
 
 ## What is ORB402?
 
-ORB402 is a privacy-preserving payment platform built on the [Base](https://base.org) blockchain. It enables users to send, receive, and manage digital assets with configurable privacy levels — from fully transparent to fully encrypted transactions using zero-knowledge proofs.
+ORB402 is a privacy-preserving payment platform built on the Base blockchain. It enables users and autonomous AI agents to send, receive, and manage digital assets with configurable privacy levels — from fully transparent to fully encrypted transactions using zero-knowledge proofs.
 
-At its core, ORB402 solves a fundamental problem in blockchain finance: **every transaction you make is permanently visible to anyone in the world.** ORB402 gives users control over who sees what, while maintaining full compliance and auditability when needed.
+At its core, ORB402 solves two fundamental problems in blockchain finance: every transaction you make is permanently visible to anyone in the world, and AI agents have no way to transact autonomously on-chain. ORB402 gives users control over who sees what, while also enabling AI agents to
+operate their own wallets — sending payments, managing balances, and executing transactions independently under policy-based controls. All of this while maintaining full compliance and auditability when needed.
 
 ---
 
