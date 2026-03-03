@@ -56,6 +56,11 @@ export {
 // Configuration
 export { createConfig, validateConfig } from './core/config';
 
+// Token Swap (Permit2 + DEX aggregation)
+export { ORB402Swapper } from './swap/swapper';
+export { parseTokenAmount, formatTokenAmount } from './swap/utils';
+export { BASE_TOKENS, NATIVE_TOKEN_ADDRESS, PERMIT2_ADDRESS } from './swap/constants';
+
 // Types
 export type {
   TransferParams,
@@ -69,3 +74,13 @@ export type {
   ChainConfig,
   PrivacyLevel,
 } from './types';
+
+export type {
+  TokenInfo,
+  SwapPriceResult,
+  SwapQuoteResult,
+  SwapResult,
+  SwapFeeConfig,
+  SwapParams,
+  SwapStep,
+} from './swap/types';
